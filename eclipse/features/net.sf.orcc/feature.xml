@@ -2,7 +2,7 @@
 <feature
       id="net.sf.orcc.feature"
       label="Orcc"
-      version="2.3.1.qualifier"
+      version="2.4.0"
       provider-name="IETR/INSA Rennes">
 
    <description url="http://orcc.sf.net">
@@ -39,14 +39,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
    </url>
 
    <requires>
-      <import plugin="net.sf.orcc.models" version="2.3.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.models" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.expressions" version="3.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecore.xmi" version="2.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.core" version="3.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.emf.ecore"/>
       <import plugin="org.eclipse.xtend.lib" version="2.4.0" match="greaterOrEqual"/>
-      <import plugin="net.sf.orcc.core" version="2.3.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.core" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext.xbase.lib" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.apache.commons.cli" version="1.2.0" match="greaterOrEqual"/>
       <import plugin="org.apache.commons.lang" version="2.6.0" match="greaterOrEqual"/>
@@ -60,7 +60,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
       <import plugin="org.objectweb.asm" version="5.0.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext.common.types"/>
       <import plugin="org.apache.log4j"/>
-      <import plugin="net.sf.orcc.cal" version="2.3.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.cal" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.compare" version="3.5.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui" version="3.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui.editors" version="3.7.0" match="greaterOrEqual"/>
@@ -72,9 +72,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
       <import plugin="org.apache.commons.lang" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext.ui.codetemplates.ui"/>
       <import plugin="com.google.guava"/>
-      <import plugin="net.sf.orcc.backends" version="2.3.1" match="greaterOrEqual"/>
-      <import plugin="net.sf.orcc.cal.ui" version="2.3.1" match="greaterOrEqual"/>
-      <import plugin="net.sf.orcc.simulators" version="2.3.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.backends" version="2.4.0" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.cal.ui" version="2.4.0" match="greaterOrEqual"/>
+      <import plugin="net.sf.orcc.simulators" version="2.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.gef" version="3.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui.views.properties.tabbed"/>
       <import plugin="org.eclipse.debug.ui" version="3.7.0" match="greaterOrEqual"/>
